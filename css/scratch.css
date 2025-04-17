@@ -1,0 +1,131 @@
+/* scratch.css - Styling for Palmasola scratch.html */
+
+@import url('https://fonts.cdnfonts.com/css/cooper-black');
+@import url('https://fonts.googleapis.com/css2?family=Sharp+Sans&display=swap');
+
+/* General Body Styles */
+body {
+    background-color: #e4e2dd;
+    font-family: 'Sharp Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Font (Palmasola) */
+h1 {
+    font-family: 'Cooper Black', 'Cooper BT', serif;
+    font-size: 3em;
+    margin-top: 20px;
+    color: #2c2c2c;
+}
+
+/* Section Headings */
+h2 {
+    font-family: 'Cooper Black', 'Cooper BT', serif;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+header {
+    padding: 20px;
+}
+
+.header-img {
+    height: auto;
+    width: 500px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    background-color: #ccc;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    padding: 15px;
+    background-color: #ccc;
+    margin-top: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Keep ordered and unordered lists centered while preserving layout */
+ol, ul {
+    display: table;
+    margin: 0 auto 1em auto;
+    text-align: left;
+}
+
+ol li ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #888;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p, li {
+    font-family: 'Sharp Sans', sans-serif;
+    font-size: 1em;
+    color: #333;
+}
